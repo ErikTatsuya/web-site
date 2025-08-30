@@ -18,3 +18,7 @@ app.add_middleware(
 async def read_root():
     number = random.randint(1, 100)
     return {"random_number": number}
+
+"""
+To run: uvicorn app:app --reload
+"""
