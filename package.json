@@ -1,0 +1,20 @@
+{
+  "name": "express-hello-api",
+  "version": "1.0.0",
+  "description": "Meu primeiro Hello World com Express",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "api",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
